@@ -11,28 +11,28 @@ body {
     font-family: 'Roboto', sans-serif;
   }
 
-#navbar {
-    background: #0082e6;
+.navbar {
+    background: #0072C6;
     height: 3rem;
     width: 100%;
 }
 
-#navbarul {
+.navbarul {
     float: right;
 }
 
-#listanav {
+.listanav {
     display: inline-flex;
     line-height: 50px;
     margin: 0 5px;
 }
 
-#listanavnome {
+.listanavnome {
     color: white;
     font-size: 17px;
 }
 
-#titulo {
+.titulo {
     display: inline-flex;
     color: white;
     line-height: 50px;
@@ -40,19 +40,19 @@ body {
     padding-left: 5px;
 }
 
-#secao-destaque {
-    background-color: #0091ff;
+.secao-destaque {
+    background-color: #0077B6;
     padding: 6%;
     margin-bottom: 5%;
 }
 
-#title-destaque {
+.title-destaque {
     text-align: center;
     padding-bottom: 1%;
     color: white;
 }
 
-#title-destaque2 {
+.title-destaque2 {
     text-align: center;
     text-transform: uppercase;
     font-size: 220%;
@@ -60,14 +60,14 @@ body {
     color: white;
 }
 
-#p-destaque1 {
+.p-destaque1 {
     margin-left: 15%;
     margin-right: 15%;
     color: white;
     text-indent: 5%;
 }
 
-#p-destaque2 {
+.p-destaque2 {
     margin-left: 15%;
     margin-right: 15%;
     color: white;
@@ -75,35 +75,35 @@ body {
     text-indent: 5%;
 }
 
-#button-destaque {
+.button-destaque {
     display: block;
     margin: 0 auto;
     padding: 0.5% 1.5%;
     background-color: white;
     border: none;
     border-radius: 5%;
-    color: #0091ff;
+    color: #0072C6;
 }
 
-#h1-noticias {
+.h1-noticias {
     font-size: 150%;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 1%;
 }
 
-#noticias-container {
+.noticias-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-#noticias-container h2 {
+.noticias-container h2 {
     font-size: large;
     text-transform: uppercase
 }
 
-#noticia {
+.noticia {
     background-color: white;
     box-sizing: border-box;
     width: 100%;
@@ -117,20 +117,20 @@ body {
     padding-bottom: 1%;
 }
 
-#descricao-noticia {
+.descricao-noticia {
     padding-top: 5%;
     padding-bottom: 7%;
 }
 
-#leia-noticia {
+.leia-noticia {
     padding: 1.5% 1.5%;
-    background-color: #0091ff;
+    background-color: #0072C6;
     border: none;
     border-radius: 5%;
     color: white;
 }
 
-#formulario {
+.formulario {
     padding-top: 5%;
     padding-left: 5%;
     padding-right: 5%;
@@ -138,20 +138,24 @@ body {
     margin-left: 12%;
     box-sizing: border-box;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding-bottom: 7%;
+    margin-bottom: 1%
+    
 }
 
-#formulario h1{
+.formulario h1{
     font-size: xx-large;
     text-align: center;
     margin-bottom: 3%;
 }
 
-#formulario label{
+.formulario label{
     display: flex;
     justify-content: center;
+    margin-bottom: 1%;
 }
 
-#formulario input{
+.form-field{
     box-sizing: border-box;
     display: block;
     margin-right: auto;
@@ -163,13 +167,57 @@ body {
     padding-bottom: 2%;
 }
 
-#formulario textarea{
+.mensagem{
+    resize: none;
     box-sizing: border-box;
     display: block;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 2%;
     border: transparent;
-    box-sizing: border-box;
-    padding-bottom: 2%;
+    box-sizing: border-box; 
+    width: 60%;
+    padding-bottom: 12%;
+}
+
+.submit-btn {
+    display: block;
+    background-color: #0072C6 ;
+    border: none;
+    border-radius: 5%;
+    color: white;
+    padding: 1%;
+    width: 10%;
+    font-size: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer {
+    background-color: #0E4066;
+    display: flex;
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 3%;
+    color: white;
+    text-decoration: none;
+    font-size: small;
+    line-height: 200%;
+}
+
+footer h1{
+    margin-bottom: 1rem;
+}
+
+footer a, p{
+    color: #FFFF;
+}
+.links {
+    margin-left: 3%;
+    margin-right: 10%;
+    
+}
+
+.contato{
+    margin-right: 10%;
 }
